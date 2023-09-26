@@ -14,4 +14,9 @@ class Post extends Model
      *
      * @var array
      */
+    protected $fillable = [
+        'image', // Tambahkan kolom 'image' ke sini
+        'title',
+        'content',
+    ];
 }
